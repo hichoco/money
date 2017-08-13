@@ -13,9 +13,9 @@ $("#go").click(function () {
 
 	var newaccount = {
     date : date,
-    moo : moo ,
+    what : moo ,
     money :money,
-    moomoo : moomoo,
+    select : moomoo,
 };
 
 	accountCollection.insert(newaccount);
@@ -27,6 +27,6 @@ $("#go").click(function () {
 	$("#moo").val("")
 	alert("ok")
 
-	alert(date+moo+moomoo+"money"+money+)
+	alert(date+moo+moomoo+"much"+money);
 
 });
