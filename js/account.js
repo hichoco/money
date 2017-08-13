@@ -27,6 +27,6 @@ $("#go").click(function () {
 	$("#moo").val("")
 	alert("ok")
 
-	alert(date+moo+"類"+moomoo+"項目"+money+"元")
+	alert(date+moo+moomoo+"money"+money+)
 
 });
