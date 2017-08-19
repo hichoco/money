@@ -1,0 +1,12 @@
+body{
+	background-color: green;
+	padding-top: 20px;
+	border-style: dotted;
+    border-width: 5px;
+    border-color: black;
+}
+p{
+	color:black;
+	font-size: 250%;
+
+}
