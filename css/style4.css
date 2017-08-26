@@ -1,0 +1,11 @@
+body{
+	background-color: blue;
+	padding-top: 20px;
+	border-style: inset;
+    border-width: 15px;
+    border-color: gray;
+}
+p{
+	color:black;
+	font-size: 250%;
+}
