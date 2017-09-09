@@ -61,7 +61,7 @@ $("#lookup").click(function() {
             }
         });
         for (var i = 0; i < accountings.length; i++) {
-            $("#accountingTable").append(createAccountingHTMLString(accountings[i].date, accountings[i].category, accountings[i].item, accountings[i].cost))
+            $("#accountingTable").append(string(accountings[i].date, accountings[i].category, accountings[i].item, accountings[i].cost))
         }
     }
     var totalcost = eatcost + homecost + wearcost;
